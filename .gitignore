@@ -1,0 +1,22 @@
+# Generated reports and submission archive
+outputs/
+formatted_outputs/
+Ashwin_TxDOT_Technical_Task.zip
+
+# Virtual environments
+venv/
+.venv/
+venv_backup_*/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local backups, temporary files, and Excel lock files
+*.backup_*
+*.tmp.xlsx
+*.tmp.pdf
+*.tmp.zip
+~$*
+.DS_Store
