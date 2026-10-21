@@ -16,6 +16,20 @@ On Windows, use `venv\Scripts\activate` to activate the environment.
 
 The packages are listed in `requirements.txt`. The first run may take longer because Docling needs to download its OCR models. After that, it reads the PDFs locally on your computer.
 
+## Required packages
+
+| Package | What it does |
+| --- | --- |
+| `beautifulsoup4` | Reads the project names and PDF links from the TxDOT website. |
+| `requests` | Downloads the website pages and project PDFs. |
+| `pypdf` | Reads the PDF's editable summary fields. |
+| `docling` | Uses local OCR to extract text and tables from scanned pages. |
+| `openpyxl` | Creates and updates the Excel workbooks. |
+| `reportlab` | Creates the PDF comparison report. |
+| `rich` | Displays the progress bar and console messages. |
+
+Install these together using `python -m pip install -r requirements.txt`. The version requirements are listed in that file.
+
 ## Running the script
 
 To choose a project from the TxDOT website:
